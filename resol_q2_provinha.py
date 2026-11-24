@@ -21,6 +21,7 @@ while True:
             produto.append(nome)
             quantidade.append(quant)
 
+# duvida que voe tinha para separar os elementos individualmente
     elif opcao == "V" or opcao == "v":
         for i in range(len(produto)):
             print(f"Produto: {produto[i]} | Quantidade: {quantidade[i]}")
