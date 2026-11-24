@@ -19,7 +19,7 @@ while True:
 for i in range (len(nome)):
     print(f"Nome: {nome[i]}   idade: {idade[i]}")
 
-media = sum(idade) + len(idade)
+media = sum(idade) / len(idade)
 
 print(f"A média das idades: {media}")
 print(f"A quantidade de candidatos: {len(nome)}")
